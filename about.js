@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$("#about-content").load("files/about/education.html");
 	}
 	else if (urlParam === "experience") {
-		$("about.content").load("files/about/experience.html");
+		$("about-content").load("files/about/experience.html");
 	}
 	else if (urlParam === "awards") {
 		$("#about-content").load("files/about/awards.html");
